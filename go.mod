@@ -155,7 +155,7 @@ require (
 	github.com/coreos/go-oidc v2.2.1+incompatible // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
@@ -448,3 +448,7 @@ require (
 	sigs.k8s.io/knftables v0.0.14 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
+
+replace github.com/k3s-io/k3s v1.30.2-rc1.0.20240613221321-b4d4ed8f010a => github.com/sdemura/k3s v1.30.2-rc3-sql
+
+replace github.com/k3s-io/kine v0.11.9 => github.com/sdemura/kine v0.11.10-sql
